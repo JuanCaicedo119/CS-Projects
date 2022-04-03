@@ -5,7 +5,7 @@ User password is encrypted with SHA-256 using python library passlib.hash
 Requirements to run locally:
 1. MongoDB Community Server version 5.0.6 or later
 2. Python version 3.0 or later
-3. Python packages fastAPI, passlib, pymongo, pydantic
+3. Python packages: fastAPI, uvicorn, pymongo, passlib
 
 To RUN: 
 Inside folder, run cdm: uvicorn app:app --reload
